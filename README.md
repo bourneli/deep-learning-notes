@@ -9,3 +9,8 @@ Some notes and references about deep learning
 ## [UFLDL Turtorial](http://deeplearning.stanford.edu/tutorial/)
 官方宣传网站：http://deeplearning.stanford.edu/，斯坦福站台，看起来很学术！
 该课程全称**Unsupervised Feature Learning and Deep Learning**，由Andrew Ng和一帮斯坦福的学生创建，有基于matlab的试验，可能与Coursera上ML练习类似。
+
+
+## [斯坦福CS231n—深度学习与计算机视觉](http://study.163.com/course/courseMain.htm?courseId=1003223001)
+
+有课件，yasarwang正在组内分享。
