@@ -13,4 +13,34 @@ Some notes and references about deep learning
 
 ## [斯坦福CS231n—深度学习与计算机视觉](http://study.163.com/course/courseMain.htm?courseId=1003223001)
 
-有课件，yasarwang正在组内分享。
+[相关资料](http://cs231n.github.io/)
+
+
+
+
+## [Coursera课程：Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks/home/info)
+
+2017年8月7日开课，多伦多大学,[官方资料](http://www.cs.toronto.edu/~hinton/nntut.html)
+
+## [edX课程：Deep Learning Explained](https://www.edx.org/course/deep-learning-explained-microsoft-dat236x)
+直接开始，微软提供的课程。
+
+### 课程大纲
+
+* 1	Introduction and Overview	 
+* 2	Multi-class classification using Logistic Regression
+* 3	Image Recognition with Multi-layer Perceptron
+* 4	Image Recognition using Convolution Neural Network	 
+* 5	Forecast Time Data using a Recurrent Neural Network (RNN)	 
+* 6	Text Classification with RNN and Long Short Term Memory (LSTM)	 
+
+### 学习记录
+
+* **2017-07-16** 学习到这里，[CNTK介绍](https://courses.edx.org/courses/course-v1:Microsoft+DAT236x+2T2017/courseware/9c859463158d4160bd7f8463ccd705d0/e9430df82b4341b6918643ed3617cf9d/?child=first)
+
+
+### 相关笔记
+
+Deep Learning = DNN (Deep Neural Networks),原来这个两个货指的同一个东西。
+
+[CNTK](https://docs.microsoft.com/en-us/cognitive-toolkit/)，微软开发的一个DL的工具集。
