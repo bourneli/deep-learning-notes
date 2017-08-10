@@ -23,6 +23,8 @@ Some notes and references about deep learning
 
 2017年8月7日开课，多伦多大学,[官方资料](http://www.cs.toronto.edu/~hinton/nntut.html)
 
+正在尝试刷
+
 ## [edX课程：Deep Learning Explained](https://www.edx.org/course/deep-learning-explained-microsoft-dat236x)
 直接开始，微软提供的课程。
 
@@ -44,13 +46,6 @@ Some notes and references about deep learning
 1. DNN学习机制，主要是BP算法
 2. 实践是检验真理的唯一标准。使用TensorFlow，RNN时序分类，应用到smoba自动审判。
 
-### 学习记录
+## DeepLearning Book
 
-* **2017-07-16** 学习到这里，[CNTK介绍](https://courses.edx.org/courses/course-v1:Microsoft+DAT236x+2T2017/courseware/9c859463158d4160bd7f8463ccd705d0/e9430df82b4341b6918643ed3617cf9d/?child=first)
-
-
-### 相关笔记
-
-Deep Learning = DNN (Deep Neural Networks),原来这个两个货指的同一个东西。
-
-[CNTK](https://docs.microsoft.com/en-us/cognitive-toolkit/)，微软开发的一个DL的工具集。
+只提供[在线阅读](http://www.deeplearningbook.org/)版本,深度学习三大神（Ian Goodfellow, Yoshua Bengio and Aaron Courville）写的书。晚上好心人整理的[PDF版本](https://github.com/HFTrader/DeepLearningBook)。
