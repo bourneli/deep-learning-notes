@@ -23,7 +23,13 @@ Some notes and references about deep learning
 
 2017年8月7日开课，多伦多大学,[官方资料](http://www.cs.toronto.edu/~hinton/nntut.html)
 
-正在尝试刷
+
+三种网络架构
+* Feed-Foward
+* Recurrent
+* Symmetrically connected netowrkd with hidden units
+
+
 
 ## [edX课程：Deep Learning Explained](https://www.edx.org/course/deep-learning-explained-microsoft-dat236x)
 直接开始，微软提供的课程。
