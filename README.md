@@ -23,14 +23,6 @@ Some notes and references about deep learning
 
 2017年8月7日开课，多伦多大学,[官方资料](http://www.cs.toronto.edu/~hinton/nntut.html)
 
-
-三种网络架构
-* Feed-Foward
-* Recurrent
-* Symmetrically connected netowrkd with hidden units
-
-
-
 ## [edX课程：Deep Learning Explained](https://www.edx.org/course/deep-learning-explained-microsoft-dat236x)
 直接开始，微软提供的课程。
 
@@ -52,6 +44,8 @@ Some notes and references about deep learning
 1. DNN学习机制，主要是BP算法
 2. 实践是检验真理的唯一标准。使用TensorFlow，RNN时序分类，应用到smoba自动审判。
 
-## DeepLearning Book
 
-只提供[在线阅读](http://www.deeplearningbook.org/)版本,深度学习三大神（Ian Goodfellow, Yoshua Bengio and Aaron Courville）写的书。晚上好心人整理的[PDF版本](https://github.com/HFTrader/DeepLearningBook)。
+ ## TensorFlow
+
+[官方文档](https://www.tensorflow.org/)
+[尝试本地安装](https://www.tensorflow.org/install/)
