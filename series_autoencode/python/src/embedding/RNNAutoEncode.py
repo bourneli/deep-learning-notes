@@ -31,16 +31,21 @@ class RNNAutoEncode(object):
 
         # Decoding layer
         # remove the first unit feature of each input data
-        input_without_first = tf.slice(series, begin=[0, 1, 0],
-                                       size=[-1, max_series - 1, feature_num])
-        decode_input = tf.concat([last_encode_output, input_without_first], axis=1)
+        # input_without_first = tf.slice(series, begin=[0, 1, 0],
+        #                                size=[-1, max_series - 1, feature_num])
+        input_without_last = tf.slice(series,
+                                      begin=[0, 0, 0],
+                                      size=[-1, max_series - 1, feature_num])
+        decode_input = tf.concat([last_encode_output, input_without_last], axis=1)
         print("Decode input  shape", decode_input.get_shape())
 
         decode_cell = tf.contrib.rnn.MultiRNNCell(
           [tf.contrib.rnn.BasicLSTMCell(hidden_num, reuse=False, activation=activation)
            for _ in range(layer_num)]
         )
-        decode_cell_output, _ = tf.nn.dynamic_rnn(decode_cell, decode_input, initial_state=self.encode_final_state,
+        decode_cell_output, _ = tf.nn.dynamic_rnn(decode_cell, decode_input,
+                                                  sequence_length=series_length,
+                                                  initial_state=self.encode_final_state,
                                                   dtype=tf.float32, scope='decode')
         print("Decode cell output shape", decode_cell_output.get_shape())
 

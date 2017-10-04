@@ -1,0 +1,6 @@
+.Rproj.user/*
+data/*
+log/*
+*.Rhistory
+*.Pproj
+
